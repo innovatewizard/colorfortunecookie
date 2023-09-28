@@ -1,3 +1,5 @@
-# color_fortune
+# Flutter Dummy App #1: Color Fortune Cookie
 
-An educational Flutter project made while following a YouTube tutorial for basic widgets. I extended the tutorial a bit to add in some additional functionality that I thought was fun.
+This repo contains the Flutter project that builds a cross-platform mobile app that simple generates a random color and prompts a GPT-3 model to give a fortune cookie style "fortune" inspired by that color.
+
+In *lib/main.dart* simply assign a valid OpenAI API Key to the <String apiKey> variable.
