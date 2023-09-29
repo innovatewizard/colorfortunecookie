@@ -32,17 +32,9 @@ class _MyAppState extends State<MyApp> {
           child: const Icon(Icons.add),
         ),
         body: ListView.builder(
+          itemCount: 1,
           itemBuilder: (_, index) {
-            if (index < 1) {
-              return GenerateColorBox();
-            } else {
-              /*    return Container(
-              padding: const EdgeInsets.all(24),
-              color: randomColor(),
-              width: 500,
-              height: 500,
-            ); */
-            }
+            return GenerateColorBox();
           },
         ),
       ),
