@@ -42,6 +42,7 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
+// this is a different comment than in (main)
 Color randomColor() {
   var displayColor = 0xFFFFFFFF & Random().nextInt(0xFFFFFFFF);
   return Color(displayColor);
