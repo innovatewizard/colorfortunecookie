@@ -82,6 +82,7 @@ class GenerateColorBox extends StatelessWidget {
   }
 }
 
+// prompt GPT-3 model for a fortune
 Future<String> getColorEmotion(String whichColor) {
   // replace with your api key
   String apiKey = "apiKey";
