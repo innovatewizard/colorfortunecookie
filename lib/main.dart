@@ -42,6 +42,7 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
+// generate a random color for the box
 Color randomColor() {
   var displayColor = 0xFFFFFFFF & Random().nextInt(0xFFFFFFFF);
   return Color(displayColor);
